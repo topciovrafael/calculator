@@ -1,0 +1,120 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.main{
+    width: 570px;
+    height: 800px;
+    margin-top: 90px;
+    border-radius: 25px;
+    background-color: rgb(211, 210, 210);
+    border: 6px solid rgb(70, 70, 70);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ecran{
+    width: 450px;
+    height: 80px;
+    border: 6px solid;
+    border-radius: 25px;
+    background-color: rgb(245, 245, 245);
+    margin-bottom: 10px;
+    display: flex;
+    justify-content:right;
+    align-items: center;
+}
+
+.primelebutoane{
+    width: 500px;
+    height: 130px;
+    border-radius: 25px;
+    background-color:rgb(211, 210, 210);
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.altfelbuton{
+    border: 2px solid;
+    width: 200px;
+    height: 90px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    background-color: rgb(170, 170, 255);
+    font-family: "Gloria Hallelujah";
+    font-size: 35px;
+    user-select: none;background-size: 100% 100%;
+}
+.altfelbuton:hover{
+    background-color: rgb(128, 128, 255);
+    cursor:pointer;
+}
+
+.altfelbuton:active{
+    background-color: rgb(83, 83, 241);
+    transform: translateY(2px);
+}
+
+#unu:hover{
+    background-color: rgb(253, 137, 137);
+}
+
+#unu:active{
+    background-color: rgb(253, 122, 122);
+    transform: translateY(2px);
+}
+
+#unu{
+    margin-right: 50px;
+    background-color: rgb(255, 151, 151);
+}
+
+.butoane{
+    display: flex;
+}
+
+.buton{
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background-color: rgb(245, 245, 245);
+    font-family: "Gloria Hallelujah";
+    font-size: 33px;   
+    user-select: none; 
+}
+
+.buton:hover{background-color: rgb(228, 226, 226); cursor:pointer;}
+
+.buton:active{
+    background-color: rgb(187, 184, 184);
+     cursor:pointer;
+     transform: translateY(2px);
+}
+
+.numar{
+    font-family: "press Start 2P";
+    font-size: 50px;
+    margin-top: 6px;
+    margin-right: 7px;
+    user-select: none;
+}
+
+

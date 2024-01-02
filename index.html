@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatorul care a speriat vestul</title>
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+<div class="main">
+    <div class="ecran">
+        <div class="numar" id="nr">0</div>
+    </div>
+                <div class="primelebutoane">
+                        <div class="altfelbuton" id="unu" onclick="reset();">CLEAR</div>
+                        <div class="altfelbuton" onclick="delet();">DELETE</div>
+                </div>
+            <div class="butoane">
+                       <div class="rand1"><div class="buton" onclick="ecran(7);">7</div>
+                        <div class="buton" onclick="ecran(4);">4</div>
+                        <div class="buton" onclick="ecran(1);">1</div>
+                        <div class="buton" id="punct" onclick="adaugarepunct('.');">.</div></div>
+                       <div class="rand2"> <div class="buton" onclick="ecran(8);">8</div>
+                        <div class="buton" onclick="ecran(5);">5</div>
+                        <div class="buton"onclick="ecran(2);">2</div>
+                        <div class="buton" onclick="ecran(0);">0</div></div>
+                        <div class="rand3"> <div class="buton" onclick="ecran(9);">9</div>
+                        <div class="buton" onclick="ecran(6);">6</div>
+                        <div class="buton" onclick="ecran(3);">3</div>
+                        <div class="buton" id="egal" onclick="egl();">=</div></div>
+                        <div class="rand4"> <div class="buton" onclick="setOperation('/');">/</div>
+                        <div class="buton" onclick="setOperation('*');">x</div>
+                        <div class="buton" onclick="setOperation('-');">-</div>
+                        <div class="buton" onclick="setOperation('+');">+</div></div>
+            </div>
+</div>
+    
+</body>
+
+
+<script src="script.js"></script>
+</html>
